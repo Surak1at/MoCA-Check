@@ -1,0 +1,114 @@
+[
+  {
+    "model": "core.testtype",
+    "pk": 1,
+    "fields": {
+      "name": "Visuospatial/Executive - ลากเส้นประจุด",
+      "description": "เชื่อมเส้นระหว่างจุดตัวเลขตามลำดับ เพื่อประเมินการรับรู้พื้นที่และลำดับ"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 2,
+    "fields": {
+      "name": "Visuospatial/Executive - คัดลอกรูปภาพเรขาคณิต",
+      "description": "คัดลอกรูปภาพซับซ้อนเพื่อตรวจสอบความสามารถในการวิเคราะห์และแสดงออกทางสายตา"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 3,
+    "fields": {
+      "name": "Visuospatial/Executive - วาดหน้าปัดนาฬิกา",
+      "description": "วาดรูปนาฬิกาและใส่เวลา เพื่อประเมินการจัดวางองค์ประกอบและฟังก์ชันการบริหารจัดการ"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 4,
+    "fields": {
+      "name": "Naming",
+      "description": "เรียกชื่อภาพวัตถุที่แสดง เพื่อทดสอบความสามารถในการเข้าถึงคำศัพท์"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 5,
+    "fields": {
+      "name": "Memory",
+      "description": "ฟังและจำชุดคำศัพท์เพื่อประเมินการจดจำเบื้องต้น"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 6,
+    "fields": {
+      "name": "Attention - อ่านชุดตัวเลข",
+      "description": "ฟังและทวนชุดตัวเลขตามลำดับ เพื่อทดสอบการใส่ใจ"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 7,
+    "fields": {
+      "name": "Attention - ย้อนลำดับตัวเลข",
+      "description": "ทวนชุดตัวเลขในลำดับย้อนกลับ เพื่อประเมินสมาธิและการจัดการข้อมูลในใจ"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 8,
+    "fields": {
+      "name": "Attention - ยกเว้นตัวเลข 1",
+      "description": "ฟังชุดตัวเลขและกดปุ่มเฉพาะเมื่อเลขที่กำหนดปรากฏ (เช่น ยกเว้นเลข 1)"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 9,
+    "fields": {
+      "name": "Attention - ลบตัวเลข",
+      "description": "คำนวณการลบเลขแบบเรียงต่อกัน เพื่อตรวจสอบสมาธิและการคิดเลข"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 10,
+    "fields": {
+      "name": "Delayed Recall",
+      "description": "จำคำศัพท์ที่เคยได้ยินในช่วงต้นของแบบทดสอบ เพื่อประเมินการจดจำระยะยาว"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 11,
+    "fields": {
+      "name": "Language - เรียงประโยค",
+      "description": "เลือกประโยคที่ถูกต้องตามคำบอก เพื่อประเมินความเข้าใจทางภาษา"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 12,
+    "fields": {
+      "name": "Language - คำศัพท์",
+      "description": "เลือกคำศัพท์ที่เคยได้เห็น เพื่อประเมินการใช้ภาษาเขียน"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 13,
+    "fields": {
+      "name": "Abstraction",
+      "description": "เข้าใจความสัมพันธ์ของคำคู่ เช่น ความคล้ายกันระหว่างคำสองคำ"
+    }
+  },
+  {
+    "model": "core.testtype",
+    "pk": 14,
+    "fields": {
+      "name": "Orientation",
+      "description": "ตอบคำถามเกี่ยวกับเวลาและสถานที่ เช่น วันที่, สถานที่ เพื่อประเมินการรับรู้ปัจจุบัน"
+    }
+  }
+]

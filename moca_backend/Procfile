@@ -1,0 +1,1 @@
+web: gunicorn moca_backend.wsgi
