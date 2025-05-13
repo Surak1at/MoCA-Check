@@ -1,6 +1,6 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 *.sqlite3
@@ -13,10 +13,15 @@ venv/
 
 # Django
 media/
+db.sqlite3
 
-# VSCode
+# FastAPI / AI
+*.onnx
+debug_input.png
+
+# VS Code
 .vscode/
 
-# System
+# OS
 .DS_Store
 Thumbs.db
