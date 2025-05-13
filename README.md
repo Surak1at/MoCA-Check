@@ -5,25 +5,6 @@
 http://moca.202.44.47.45.nip.io/
 
 โปรเจกต์นี้ประกอบด้วย 3 ส่วนหลัก: Django Backend, FastAPI AI Service และ Frontend
-## 🗂️ โครงสร้างโฟลเดอร์
-for_deploy/
-├── backend/ # Django backend (API และจัดการฐานข้อมูล)
-│ ├── core/
-│ ├── media/
-│ ├── moca_backend/
-│ └── manage.py
-│
-├── fastapi_ai/ # FastAPI สำหรับวิเคราะห์ภาพด้วย AI (เช่น ทดสอบวาดรูป)
-│ ├── app.py
-│ ├── geometry_ai.py
-│ ├── model/ # โมเดล AI (.onnx หรืออื่น ๆ)
-│ └── requirements.txt
-│
-├── frontend/ # ระบบหน้าบ้าน (React, Vite หรือ static HTML)
-│ 
-│
-├── README.md
-└── .gitignore
 
 ## 📌 การใช้งานเบื้องต้น
 
