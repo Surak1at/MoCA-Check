@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal2-actions {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  /* ปรับตามต้องการ */
+}
+
+.swal2-popup {
+  box-sizing: border-box;
+  /* ✅ ป้องกันล้นจาก padding */
+}
+
+/* ✅ ปรับแต่งป๊อปอัปให้ดูสวยขึ้น */
+.swal2-custom-popup {
+  border-radius: 12px !important;
+  padding: 20px !important;
+  border: 2px solid #dc2626 !important;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.swal2-custom-title {
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+
+.swal2-custom-button {
+  font-size: 18px !important;
+  padding: 10px 20px !important;
+  background-color: #dc2626 !important;
+  color: white !important;
+  border-radius: 8px !important;
+}
+
+
+
+
+

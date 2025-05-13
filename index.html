@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link to Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.foundation.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.2/css/responsive.foundation.css">
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto mt-10">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h1 class="text-xl font-bold text-gray-700 mb-4">ตารางข้อมูลเว็บไซต์</h1>
+            <div class="table-responsive">
+                <table class="w-full table-auto overflow-x-auto" id="table-data">
+                    <thead>
+                        <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                            <th class="py-3 px-6 text-left">ชื่อโครงงานพิเศษ</th>
+                            <th class="py-3 px-6 text-left">เครื่องมือ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-600 text-sm font-light">
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-nowrap">ชุมชนออนไลน์เพื่อสืบสานภูมิปัญญาพื้นบ้าน
+                            </td>
+                            <td class="py-3 px-6 text-left cursor-pointer"> <a href="bannaprue/">Click</a></td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-nowrap">
+                                ซับไลฟ์เว็บเเอปพลิเคชันสนุนอุปกรณ์สัญญาณชีพ
+                            </td>
+                            <td class="py-3 px-6 text-left cursor-pointer"> <a href="http://202.44.47.45:8002/">Click</a>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-nowrap">ระบบตรวจจับการล้ม</td>
+                            <td class="py-3 px-6 text-left cursor-pointer"> <a href="http://202.44.47.45:9000/">Click</a></td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-nowrap">ทุ่มตรวจสอบความอุดมสมบูรณ์ป่าชายเลน (ต้นแบบ)
+                            </td>
+                            <td class="py-3 px-6 text-left cursor-pointer"> <a href="http://202.44.47.45/admindashboard/">Click</a></td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-nowrap">
+                                ระบบสารสนเทศและแอปพลิเคชันสนับสนุนตู้ชาร์จรถไฟฟ้า (⛽ECOCHARGE@KMUTNB)
+                            </td>
+                            <td class="py-3 px-6 text-left cursor-pointer"> <a href="http://202.44.47.45:8080/">Click(เวอร์ชั่นบน Server หลักสูตร), </a> <br>
+                                <a href="https://ev-dashboard-ten.vercel.app/">Click(เวอร์ชั่นบน Server
+                                    ด้านนอกหลักสูตร)</a>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-nowrap">
+                                พัฒนาระบบจัดการตารางปฏิบัติงาน โรงพยาบาลค่ายจักรพงษ์
+                            </td>
+                            <td class="py-3 px-6 text-left cursor-pointer"> <a href="http://202.44.47.45/hostpital/">Click(เวอร์ชั่นบน Server หลักสูตร)</a>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-nowrap">
+                                ระบบสารสนเทศการจองเวลาออกรอบสนามกอลฟ์กรณีศึกษาสนามกอล์ฟกบินทร์บุรีสปอร์ตคลับ
+                            </td>
+                            <td class="py-3 px-6 text-left cursor-pointer"> <a href="http://202.44.47.45/Golfbooking_teetimes/">Click(เวอร์ชั่นบน Server หลักสูตร)</a>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-nowrap">
+                                การพัฒนาเว็บแอปพลิเคชันคัดกรองและประเมินความเสี่ยงโรคสมองเสื่อมด้วยแบบประเมิน MoCA Check
+                            </td>
+                            <td class="py-3 px-6 text-left cursor-pointer"> <a href="http://moca.202.44.47.45.nip.io/">Click</a>
+                            </td>
+                        </tr>
+                    	<tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-nowrap">
+                                เว็บแอปพลิเคชั่นเพื่อเกษตรแม่นยำ
+                            </td>
+                            <td class="py-3 px-6 text-left cursor-pointer"> <a href="http://202.44.47.45:3000">Click</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.7/js/dataTables.foundation.js"></script>
+<script src="https://cdn.datatables.net/responsive/3.0.2/js/dataTables.responsive.js"></script>
+<script src="https://cdn.datatables.net/responsive/3.0.2/js/responsive.foundation.js"></script>
+<script>
+    var table = $('#table-data').DataTable({
+        responsive: true,
+        //ภาษาไทย
+        "language": {
+            url: 'https://cdn.datatables.net/plug-ins/1.10.25/i18n/Thai.json'
+        }
+    });
+</script>
+
+</html>
