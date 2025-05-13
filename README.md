@@ -14,3 +14,8 @@ http://moca.202.44.47.45.nip.io/
 4. รัน backend: `python manage.py runserver`
 5. รัน FastAPI: `uvicorn app:app --host 0.0.0.0 --port 8002`
 6. รัน frontend: `npm run dev`
+
+## ผู้จัดทำ
+นายเศรษฐพงศ์ จังเลิศคณาพงศ์
+นายสุรเกียรติ สุนทราวิรัตน์
+
